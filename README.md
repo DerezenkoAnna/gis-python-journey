@@ -9,3 +9,5 @@
 ##
 
 Навчитись Python,  Git та створювати власні GIS-проєкти.
+
+## Lesson 1 completed ✅
