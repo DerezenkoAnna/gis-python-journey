@@ -1,10 +1,9 @@
-number = int (input("Введіть число "))
+area = int (input ("Введіть площу ділянки "))
 count = 0
 
-while number != 0:
-    if number > 5:
+while area != 0:
+    if area >1000:
         count = count + 1
-    number = int (input("Введіть число "))
 
-print (count)
-    
+    area = int (input ("Введіть площу ділянки "))
+print ("Загальна кількість ділянок становить", count)
