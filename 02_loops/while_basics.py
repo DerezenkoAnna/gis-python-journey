@@ -1,9 +1,10 @@
-number = int (input ("Введіть число "))
+number = 1
+total = 0
 
-while number != 7:
+while number <=5:
+    
+    total = number + total
 
-    print ("Спробуй ще раз")
+    number = number + 1
 
-    number = int (input ("Введіть число ще раз "))
-
-print ("Вітаю! Ви вгадали число")
+    print (total)
