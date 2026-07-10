@@ -1,7 +1,9 @@
-number = 5
+number = int (input ("Введіть число "))
 
-while number >= 1:
+while number != 7:
 
-    print (number)
+    print ("Спробуй ще раз")
 
-    number = number-1
+    number = int (input ("Введіть число ще раз "))
+
+print ("Вітаю! Ви вгадали число")
